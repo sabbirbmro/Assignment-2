@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment-2</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    
+        <header>
+            <div class="navbar">
+             
+                <img src="Images/Navbar/logo.png">
+                <p>Home</p>
+                <p>Shop</p>
+                <p>Cart</p>
+                <div class="search">
+                <img src="Images/Navbar/Search-icon.png">
+                <form class="example" action="action_page.php">
+                    <input type="text" placeholder="Search.." name="search">
+                  </form>
+                <img  src="Images/Navbar/Cart.png">
+                </div>
+            </div>         
+        </header>
+        <section class="hero-section">
+        
+            <div class="header">
+                <img src="Images/Hero-Section/Bike Delivery.png">
+                <h1>The Fastest
+                    Delivery
+                    In Your City</h1>
+                    <p>"Indulge your culinary cravings with our gastronomic oasis! Welcome, where every click leads you on a mouthwatering journey through a world of flavors. Explore an extensive collection of delectable recipes, from timeless classics to innovative creations, meticulously curated to delight food enthusiasts of all tastes and skill levels.. </p>
+            <div class="Process">
+                    <button>Order Now</button> 
+                    <img src="Images/Hero-Section/Order Process.png">
+            </div>
+                </div>
+
+            <div>
+                <img src="Images/Hero-Section/Food Slider.png">
+            </div>
+            
+        </section>
+        <main>
+            <section class="short-list">
+                <img src="Images/Main/Short List.png">
+            </section>
+
+
+            <section class="carts">
+         <div style="display: flex; justify-content: center ; margin-bottom: 40px;">
+            <h2>Most Popular Items  </h2>
+         </div>
+         <div class="shop-section">
+            <div id="projects" class="box1 box">
+                <div class="box-content">
+                    <div class="box-img" style="background-image: url(Images/Foods/1.png);"></div>
+                    <h2>Gyro Sandwhich</h2>
+                    <button>Add to Cart</button>
+            </div>
+            </div>
+            <div class="box1 box">
+                <div class="box-content">
+                    <div class="box-img" style="background-image: url(Images/Foods/2.png);"></div>
+                    <h2>Green Beans</h2>
+                    <button>Add to Cart</button>
+            </div>
+            </div>
+            <div class="box1 box">
+                <div class="box-content">
+                    <div class="box-img" style="background-image: url(Images/Foods/3.png);"></div>
+                    <h2>Kunafa</h2>
+                    <button>Add to Cart</button>
+            </div>
+            </div>
+
+         </div>
+         <div class="shop-section">
+            <div class="box1 box">
+                <div class="box-content">
+                    <div class="box-img" style="background-image: url(Images/Foods/4.png);"></div>
+                    <h2>Salad</h2>
+                    <button>Add to Cart</button>
+            </div>
+            </div>
+            <div class="box1 box">
+                <div class="box-content">
+                    <div class="box-img" style="background-image: url(Images/Foods/5.png);"></div>
+                    <h2>Pasta</h2>
+                    <button>Add to Cart</button>
+            </div>
+            </div>
+            <div class="box1 box">
+                <div class="box-content">
+                    <div class="box-img" style="background-image: url(Images/Foods/6.png);"></div>
+                    <h2>Pizza</h2>
+                    <button>Add to Cart</button>
+            </div>
+            </div>
+
+         </div> 
+            </section>
+<div class="see-more">
+            <button onclick="handleShowMoreproject()">See More Products</button>
+</div>
+<div style="display: flex; justify-content: center ; margin-top: 40px;">
+    <h2>Why Choose Our Favorite Food</h2>
+ </div>
+ <section class="delivery">
+ <div class="del-img">
+    <img src="Images/Main/Food.png">
+    <h2>Qualityfull Food</h2>
+    <p>But I must explain to you how all this<br>
+        mistaken idea of denouncing pleasur and<br>
+        prasising pain was bron.</p>
+ </div>
+ <div class="del-img">
+ <div class="del-imgs">
+    <img src="Images/Main/Mask group (6).png">
+ </div>
+    <h2>Healthy Food</h2>
+    <p>But I must explain to you how all this<br>
+        mistaken idea of denouncing pleasur and<br>
+        prasising pain was bron.</p>
+ </div>
+ <div class="del-img">
+    <img src="Images/Main/delivery.png">
+    <h2>Fast Delivery</h2>
+    <p>But I must explain to you how all this<br>
+        mistaken idea of denouncing pleasur and<br>
+        prasising pain was bron.</p>
+ </div>
+ </section>
+ <div style="display: flex; justify-content: center ; margin-top: 40px;">
+    <h2>Our Happy Client Says</h2>
+ </div>
+<section class="testimonial">
+    <div class="testimonial">
+<div>
+    <img src="Images/Main/test.png">
+    <p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet nisl <br>tincidunt adipiscing dictumst blandit hac. Lectus cras velit sed dignissim ac, aliquet. Metus egestas habitant feugiat neque ultrices nunc, dolor egestas mus.”</p>
+</div>
+<div class="burger">
+    <img style="height: 300px;" src="Images/Main/burger (1).png">
+</div>
+</div>
+</section>
+<section>
+    <div class="newsletter">
+   <img src="Images/Main/burger2.png">
+    
+    <div style="color: white;">
+<h2>Subcribe To Our Newsletter</h2>
+<p>Lorem ipsum dolor sit amet, <br>consectetur adipidrscing elit. Purus mauris sem sed urna venenatis vivamus. <br>Egestas in velit nulla viverra turpis id ac. Amet faucibus tempus.</p>
+<div class="Subscribe">
+<input type="email  " placeholder="Email address" name="mail" required>
+<button onclick="handlecontact()">Subscribe</button>
+</div>
+    </div>
+</section>
+</main>
+
+
+<footer>    
+    <div class="footpanel2">
+        
+        <ul>
+            <p>Opening Restaurant   </p>
+                <a>Sat-Wet: 09:00am-10:00PM</a>
+                <a> Thursday: 09:00am-11:00PM</a>
+                <a> Friday: 09:00am-8:00PM/a>
+        </ul>
+
+        <img src="Images/Navbar/logo.png">
+        <p style="color: gray;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br>Commodo libero viverra dapibus odio sit malesuada in quis.<br> Arcu tristique elementum viverra integer id</p>
+        <img src="Images/Navbar/Social Icon.png">
+        <ul>
+            <p style="color: black; font-size: 15px;">User Connects</p>
+                <a>Careers</a>
+                <a> Affiliates</a>
+                <a>Investor Relations</a>
+                <a> Devices</a>
+        </ul>
+        <ul>
+            <p>Contact Us </p>
+                <a>Gec,Chittagong</a>
+                <a> 01307877054</a>
+                <a>01824411928</a>
+        </ul>   
+    </div>
+    <div class="footpanel4">
+                    <div class="copywright">
+                        © 2024, Sabbir Bro, Inc.
+                    </div>
+    </div>
+   </footer>
+
+</body>
+</html>

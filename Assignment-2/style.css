@@ -1,0 +1,175 @@
+*{
+    margin: 5px;
+    padding: 0;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.navbar p{
+    margin-top: 20px;
+}
+
+input{
+    width: 200px;
+    
+    border: none;
+    font-size: 20px;
+}
+.hero-section{
+    display: flex;
+}
+h1{
+    font-size: 96px;
+}
+p{
+    margin-top: 40px;
+}
+.search{
+    display: flex;
+    justify-content: center;
+}
+.search img{
+    height: 20px;
+}
+.Process   button{
+    font-size: 30px;
+    width: 200px;
+    height: 70px;
+    color: white;
+    background-color: orange;
+    border-radius: 10px;
+    border: none;
+  margin-top: 34px;
+}
+.Process{
+    display: flex;
+    margin-top: 80px;
+}    
+.short-list img{
+    width: 100%;
+
+}
+
+
+
+
+
+.shop-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.box{
+        height: 400px;
+        width: 30%;
+        margin-top: 15px;
+}
+.box-img{
+    background-size: cover;
+height: 300px;
+}
+.box-content{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.box-content  button{
+    color: white;
+    background-color: orange;
+    border-radius: 10px;
+    border: none;
+    width: 90px;
+    height: 40px;
+}
+.see-more button{
+    font-size: 20px;
+    width: 300px;
+    height: 70px;
+    color: white;
+    background-color: orange;
+    border-radius: 30px;
+    border: none;
+  margin-top: 34px;
+}
+.see-more{
+    display: flex;
+    justify-content: center;
+    
+}
+.delivery{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+.del-imgs{
+ display: flex;
+ justify-content: center;
+}
+.del-img{
+    border: 2px solid white;
+}
+.testimonial{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.burger {
+    width: 500px;
+    height: 100px;
+}
+.newsletter{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 120px;
+    background-image: url(Images/Main/Rectangle\ 20.png);
+    border-radius: 25px;
+}
+.Subscribe{
+    margin-top: 40px;
+}
+.Subscribe input{
+      width: 400px;
+      height: 50px;
+      border-radius: 10px;
+      font-size: 20px;
+}
+.Subscribe button{
+    color: white;
+    background-color: orange;
+    border-radius: 10px;
+    border: none;
+    width: 100px;
+    height: 50px;
+}
+
+
+footer{
+    margin-top: 25px;
+}
+
+.footpanel2{
+    color: black;
+    height: 300px;
+    display: flex;
+    justify-content:space-between;
+
+}
+ul{
+    margin-top: 20px;
+}
+ul a{
+        display: block;
+        font-size: 0.85rem;
+        margin-top: 10px;
+        color:grey;
+} 
+.footpanel4{
+    color: black    ;
+   text-align: center;
+}
+.copywright{
+    padding-top: 5px;
+    align-items: center;
+}
